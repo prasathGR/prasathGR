@@ -1,0 +1,85 @@
+
+.carousel-item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-item img {
+  width: 100%;
+  height: 500px; 
+  object-fit: cover;
+}
+#back{
+  color: white;
+  font-size: 50px;
+  position: relative;
+  top: 200px;
+  right: 300px;
+  left: 20px;
+  text-align: center;
+}
+.container a{
+ color: rgb(67, 48, 48);
+ font-size: 30px;
+ font-family: Georgia, 'Times New Roman', Times, serif
+ ;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.work{
+  text-align: center;
+  
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.book{
+  position: relative;
+  height: 500px ;
+}
+.book h1{
+  color: rgb(95, 94, 94);
+  position: absolute;
+  bottom: 200px;
+  left: 480px;
+  font-size: 4em;
+  font-family: fantasy;
+  display: flex;
+}
+.book h1:hover{
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.section4{
+  height:400px;
+  width:100%;
+  background-color: rgb(105, 104, 104);
+
+}
+.section4 h1{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
